@@ -425,9 +425,7 @@ if archivo is not None:
 
                     st.pyplot(fig2)
 
-                # ==========================
-                # DESCARGAR TABLA
-                # ==========================
+                
 
                 csv = tabla.to_csv(
                     index=False
@@ -452,5 +450,4 @@ if archivo is not None:
 
         st.error(
             f"No fue posible leer el archivo: {e}"
->>>>>>> 0fd53c74a1c60df968e6cd5461c74be2f26bf236
         )
